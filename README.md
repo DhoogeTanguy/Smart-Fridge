@@ -1,6 +1,6 @@
 # Smart-Fridge
 
-Hi there, My name is Tanguy and I am a student Multimedia & Creative Technologies at Howest. This is a repo of my final project of the year. All of the instructions are listed in my instructable that you can find here(https://www.instructables.com/Smart-Fridge-Tools-and-Materials/).
+Hi there, My name is Tanguy and I am a student Multimedia & Creative Technologies at Howest. This is a repo of my final project of the year. All of the instructions are listed in my instructable that you can find here!(https://www.instructables.com/Smart-Fridge-Tools-and-Materials/).
 
 
 step 1: Download Raspbian and write the immage file on your raspberry pi 4 SD-card.
