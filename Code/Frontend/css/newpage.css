@@ -1,0 +1,161 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 10px;
+    background: #F2F6F7;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+  }
+
+.c-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #004CFF;
+    color: white;
+}
+
+.c-header__logo {
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.c-header__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.c-header__nav__item {
+    padding: 10px 5px;
+    border-right: solid 2px white;
+}   
+.c-header__nav__item:last-child {
+    padding: 10px 5px;
+    border-right: none;
+}   
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0;
+
+}
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome__img {
+    border-radius: 100%;
+    max-width: 40px;
+}
+.welcome__title {
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 175px;
+    height: 175px;
+    margin: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px #00000029;
+    color: white;
+    background-color: #004CFF;
+}
+.subtitles {
+    color: black;
+    margin: 0 auto;
+}
+.content2 {
+    text-align: center;
+}
+
+.boxen_dranken {
+    border: 1px solid #004CFF;
+    background-color: white;
+    margin: 24px;
+    padding: 18px;
+    display: flex;
+
+}
+.content3 {
+    text-align: center;
+}
+.boxen_dranken1 {
+
+    display: flex;
+    margin: 24px;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+.boxen_historiek {
+    background-color: white;
+    box-shadow: 4px 7px 6px rgb(36, 36, 36);
+    border-radius: 10px;
+    width: 528px;
+    padding: 14px;
+}
+.titel{
+    text-align: left;
+    font-size: 16px;
+}
+.content4 {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 14px;
+    margin: 24px;
+}
+.datum {
+    text-align: left;
+    font-size: 12px;
+    color: #707070;
+}
+.aantal_dranken {
+    text-align: left;
+    font-size: 14px;
+    color: black;
+}
